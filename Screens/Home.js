@@ -22,7 +22,7 @@ export default class Home extends React.Component {
 
   GetProductData = async () => {
 
-    const API = "https://amazon-data-scraper.p.rapidapi.com/search/MacBook%20Air?rapidapi-key=576c3763camsha057e0f4a997877p12b661jsna39c278491d2&api_key=674da3fbccda9ab7951b807538ea86f5"
+    const API = "API_key"
 
     fetch(API)
       .then((response) => response.json())
